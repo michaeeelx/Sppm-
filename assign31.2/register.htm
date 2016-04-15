@@ -1,0 +1,118 @@
+<?php
+/**
+ * booking.htm
+ *
+ * @package    PHP-SRS
+ * @author     David Tian - 1773834
+ * @copyright  2016
+ * @todo 	   PHP
+ */
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>People Health Pharmacy</title>
+	<link href="style.css" rel="stylesheet" type="text/css" /> 
+	<script src="ozpg.js"></script>
+</head>
+<body>
+<h1>People Health Pharmacy</h1>
+<div>
+	<nav>
+		<ul class='left'>
+			<li><a href='index.htm'>Home</a>
+			<a href='about.htm'>About Us</a>
+			<a href='health.htm'>Health Services</a>
+			<a href='patient.htm'>Patient Information</a>
+			<a href='contact.htm'>Contact Us</a>
+			<a href='help.htm'>Help</a>
+
+			</li>
+		</ul>
+		<ul class='right'>
+			<li><a href='register.htm'>Sign Up</a>
+			<a href='login.htm'>Login</a></li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+</div>
+<div id='information'></div>
+<article>
+	<form autocomplete='off' method='get' aciton=''>
+		<fieldset><legend>Registration:</legend>
+			<p>
+				<label for='fname'>First Name:</label>
+				<input type='text' name='fname' id='fname' value='' /><span id='sfname'></span>
+			
+			<p>
+				<label for='lname'>Last Name:</label>
+				<input type='text' name='lname' id='lname' value='' /><span id='slname'></span>
+			</p>
+			<p>
+				<label for='email'>Email:</label>
+				<input type='email' name='email' id='email' value='' placeholder='name@domain.com' /><span id='semail'></span>
+			</p>
+			<p>
+				<label for='pass'>Password:</label>
+				<input type='password' name='pass' id='pass' value='' /><span id='spass'></span>
+			</p>
+			<p>
+				<label for='passC'>Confirm Password:</label>
+				<input type='password' name='passC' id='passC' value='' /><span id='spassC'></span>
+			</p>
+
+			<p>
+				<label for='medid'>Medicare ID:</label>
+				<input type='text' name='medid' id='medid' value='' placeholder='1234567' /><span id='medid'></span>
+			</p>
+
+			<p>
+				<label for='age'>Date of birth:</label>
+				<input type='text' name='day' id='day' value='' placeholder='day'/><span id='age'></span>
+				<input type='text' name='month' id='month' value='' placeholder='month'/><span id='age'></span>
+				<input type='text' name='year' id='year' value='' placeholder='year'/><span id='age'></span>
+			</p>
+
+			<p>
+				<label for='age'>Gender:</label>
+				<input type='radio' name='sex' id='sex1' value='male' checked /><span id='sex'></span>Male 
+				<input type='radio' name='sex' id='sex2' value='female'/><span id='sex'></span>Female
+
+			</p>
+
+			<p>
+				<label for='add'>Address:</label>
+				<input type='text' name='add' id='add' value='' /><span id='add'></span>
+			</p>
+
+			<p>
+				<label for='phone'>Phone Number:</label>
+				<input type='tel' name='phone' id='phone' value='' placeholder='0408889999'/>
+			</p>
+
+			<p>
+			<input type='reset' value='Reset'/>
+			<input type='button' value='Register' onClick='formValidation()'/>
+			</p>
+		</fieldset>
+	</form>
+</article>
+
+
+
+
+<div>
+	<hr>
+<footer class='Made'>
+&#169; PHP System
+</footer>
+
+<footer class='Email'>
+Email: <a href='mailto:support@php.com'>support@php.com</a>
+</footer>
+</div>
+<br>
+<br>
+</body>
+</html>

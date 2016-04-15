@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<patients>
+  <patient>
+    <Id>99871</Id>
+    <Fname>Leo</Fname>
+    <Lname>Oz</Lname>
+    <Gender>male</Gender>
+    <Cost>100</Cost>
+    <Pass>123456</Pass>
+    <Email>leo@gmail.com</Email>
+    <MedicareID>1234567</MedicareID>
+    <Age>20-11-1988</Age>
+    <Address>123 Street</Address>
+    <Phone>0401185899</Phone>
+  </patient>
+  <patient>
+    <Id>53102</Id>
+    <Fname>hello</Fname>
+    <Lname>world</Lname>
+    <Gender>male</Gender>
+    <Cost>100</Cost>
+    <Pass>kanebfgk10</Pass>
+    <Email>helloworld@gmail.com</Email>
+    <MedicareID>5555555</MedicareID>
+    <Age>05-05-1992</Age>
+    <Address>helloworld</Address>
+    <Phone>5555555555</Phone>
+  </patient>
+  <patient>
+    <Id>132212</Id>
+    <Fname>Adam</Fname>
+    <Lname>Oz</Lname>
+    <Gender>male</Gender>
+    <Cost>150</Cost>
+    <Pass>123456</Pass>
+    <Email>adam@gmail.com</Email>
+    <MedicareID>1223311</MedicareID>
+    <Age>10-10-1979</Age>
+    <Address>123 Street</Address>
+    <Phone>0401185899</Phone>
+  </patient>
+  <patient>
+    <Id>201756</Id>
+    <Fname>David</Fname>
+    <Lname>Oz</Lname>
+    <Gender>male</Gender>
+    <Cost>180</Cost>
+    <Pass>123456</Pass>
+    <Email>david@gmail.com</Email>
+    <MedicareID>1234566</MedicareID>
+    <Age>11-10-1960</Age>
+    <Address>123 Street</Address>
+    <Phone>0401185899</Phone>
+  </patient>
+  <patient>
+    <Id>108195</Id>
+    <Fname>Jazon</Fname>
+    <Lname>Oz</Lname>
+    <Gender>male</Gender>
+    <Cost>100</Cost>
+    <Pass>123456</Pass>
+    <Email>jazon@gmail.com</Email>
+    <MedicareID>1223456</MedicareID>
+    <Age>22-02-1988</Age>
+    <Address>123 Street</Address>
+    <Phone>0401185899</Phone>
+  </patient>
+</patients>
