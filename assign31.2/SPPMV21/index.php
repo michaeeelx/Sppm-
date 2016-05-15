@@ -37,7 +37,7 @@
 	    border-radius: 15px;
         text-align:center;">
      <h1><div align="center"><img src="images/pharmacy.jpg" alt="Pharmacy" title="Pharmacy" width="450" height="180 " "font-family:verdana"/><br/>People Health Pharmacy</h1></div>
-	 </div> //new image
+	 </div> <!--new image-->
       <div align = "center">
 	  <div style="max-width:1000px;
 	    margin-top:10px;
